@@ -13,3 +13,10 @@
 .btnstar1:hover{
     background-color: rgb(34, 36, 43);
 }
+
+@media screen and (min-width:350px) and (max-width:769px){
+    .home{
+        width: 100%;
+        margin-right: 0px;
+    }
+}

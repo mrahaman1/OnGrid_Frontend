@@ -3,7 +3,7 @@ import './Offercomp.css'
 import { Link } from 'react-router-dom';
 const OffercompB = (props) => {
   return (props.blogger) ? (
-    <div className='offercomp compb'>
+    <div className='Offcompb'>
          <div className='offercompchild'>
           <h2 className='offercompchilditem'>Gridlines APIs for instant ID verification, KYC and onboarding</h2>
           <button className='offercompchilditem offerbtnb' style={{ marginLeft:"180px"}}><Link className='hoverlinktxt' to='./bookademo'>Book a demo</Link></button>

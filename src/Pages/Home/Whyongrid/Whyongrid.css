@@ -120,38 +120,48 @@
         width: fit-content;
     }
     .ongrid1{
-        width: 100%;
+        width: 90%;
     }
     .ongrid2{
-        width: 48%;
+        width: 90%;
     }
     .ongrid3{
-        width: fit-content;
+        width: 90%;
+        margin-left: 5%;
     }
     .secondgrid{
-        flex-direction: column-reverse;
-        margin: auto;
+         flex-direction: row;
+         flex-wrap: wrap;
     }
-    .grid{
-        flex-direction: row;
-        height: fit-content;
-    }
+    /* .grid{ */
+        /* flex-direction: row; */
+        /* height: fit-content; */
+    /* } */
     .gridchild{
-        width: 48%;
+        width: 100%;
+        margin-left: -10%;
     }
     .gridchildimg{
-        width: 100%;
+        width: 130%;
     }
     .driver{
-        display: none;
+        width: 80%;
+        height: 80%;
     }
     .childgrand{
-        width: 48%;
+        width: 80%;
     }
     .cleaner{
-        width: 100%;
+        width: 90%;
     }
-    .grandchild{
-        height: fit-content;
+    /* .grandchild{ */
+        /* height: fit-content; */
+    /* } */
+    .whyongrid{
+        width: 90%;
+    }
+    .trio{
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 }

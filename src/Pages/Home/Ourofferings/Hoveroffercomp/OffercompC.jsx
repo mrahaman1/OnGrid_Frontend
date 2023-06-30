@@ -3,7 +3,7 @@ import './Offercomp.css'
 import { Link } from 'react-router-dom';
 const OffercompC = (props) => {
   return (props.catch) ? (
-    <div className='offercomp compc'>
+    <div className='Offcompc'>
         <div className='offercompchild'>
           <h2 className='offercompchilditem'>eLockr for issuing employment credentials to ex-employees</h2>
           <button className='offercompchilditem offerbtn'><Link className='hoverlinktxt' to='./bookademo'>Book a demo</Link></button>

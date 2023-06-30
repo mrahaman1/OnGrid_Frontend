@@ -9,7 +9,7 @@ import './Home.css'
 const Home = () => {
   const isLoggedIn = window.localStorage.getItem("loggedIn")
   return (
-    <div>
+    <div className='home'>
         <Header/>
         <Whyongrid/>
         <Ourofferings/>

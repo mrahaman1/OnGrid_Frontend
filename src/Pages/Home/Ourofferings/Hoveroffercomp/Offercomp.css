@@ -14,7 +14,7 @@
     padding: 20px;
 }
 
-.compb{
+.Offcompb{
     background-image: url(./photo/offerings-gridlines.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -30,7 +30,7 @@
     padding: 20px;
 }
 
-.compc{
+.Offcompc{
     background-image: url(./photo/offerings-eLockr.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -39,7 +39,7 @@
     height: 450px;
     margin: auto;
     position: absolute;
-    top: 450px;
+    top: 1950px;
     left: 130px;
     animation: ourofferC;
     animation-duration: 1s;
