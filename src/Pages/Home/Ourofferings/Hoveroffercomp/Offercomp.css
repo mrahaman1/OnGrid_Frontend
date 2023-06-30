@@ -1,0 +1,106 @@
+.offercomp{
+    background-image: url(./photo/offerings-onGrid.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    width: 80%;
+    height: 470px;
+    margin: auto;
+    position: absolute;
+    top: 1920px;
+    left: 130px;
+    animation: ouroffer;
+    animation-duration: 1s;
+    padding: 20px;
+}
+
+.compb{
+    background-image: url(./photo/offerings-gridlines.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    width: 80%;
+    height: 450px;
+    margin: auto;
+    position: absolute;
+    top: 1950px;
+    left: 130px;
+    animation: ourofferB;
+    animation-duration: 1s;
+    padding: 20px;
+}
+
+.compc{
+    background-image: url(./photo/offerings-eLockr.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    width: 80%;
+    height: 450px;
+    margin: auto;
+    position: absolute;
+    top: 450px;
+    left: 130px;
+    animation: ourofferC;
+    animation-duration: 1s;
+    padding: 20px;
+}
+
+.offercompchild{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 6px solid #34d0d0;
+}
+.offercompchilditem{
+    margin: 20px;
+}
+.offercompchild1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.offercompchild1item{
+    width: 450px;
+    margin: 10px;
+}
+.offerbtn{
+    background-color: #00bbbb;
+    border: none;
+    color: white;
+    font-size: medium;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.closebtn{
+    color: white;
+    background-color: #00bbbb;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    padding: 10px;
+    position: relative;
+    bottom: 15px;
+    left: 15px;
+    margin: 5px;
+    height: fit-content;
+}
+
+@keyframes ouroffer {
+    0%{
+        transform: translateX(-35%) scale(0);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0%) scale(1);
+        opacity: 1;
+    }
+}
+@media screen and (min-width:350px) and (max-width:769px){
+    .offercomp{
+        position: absolute;
+        width: 100%;
+        top: 3400px;
+        left: 0px;
+    }
+}

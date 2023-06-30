@@ -1,0 +1,54 @@
+.signbox{
+    padding: 20px;
+    margin: auto;
+    width: 600px;
+    text-align: center;
+    background-image: linear-gradient( rgb(112, 220, 243), white);
+    color: black;
+    border: 1px solid black;
+}
+.inpt{
+    width: 600px;
+    height: 70px;
+    border-top: 2px;
+    border-left: 2px;
+    border-right: 2px;
+    background-color: whitesmoke;
+}
+.btn{
+    background-color: greenyellow;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    color: black;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: rgba(58, 57, 57, 0.692);
+}
+.box{
+    box-shadow: 0px 0px 1px 0px;
+    padding: 20px;
+    margin: auto;
+    width: 600px;
+    text-align: center;
+    background-color: whitesmoke;
+}
+.b{
+    margin: 20px;
+}
+.forgot{
+    text-decoration: none;
+    color: black;
+}
+@media screen and (max-width:769px){
+    .signbox{
+        width: 100%;
+    }
+    .inpt{
+        width: 100%;
+    }
+    .box{
+        width: 100%;
+    }
+}

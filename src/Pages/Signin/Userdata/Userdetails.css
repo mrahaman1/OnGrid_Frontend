@@ -1,0 +1,41 @@
+.profilebox{
+    text-align: start;
+    width: 400px;
+    margin: auto;
+    padding: 25px;
+    border: 2px solid black;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-image: linear-gradient( rgb(112, 226, 253),white);
+}
+.profilehead{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+    width: 400px;
+    text-align: center;
+   background-color: goldenrod;
+   color: white;
+   border-radius: 5px;
+}
+.profilebtn{
+    background-color: red;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    margin-left: 160px;
+    width: 100px;
+    height: 40px;
+    border-radius: 3px;
+}
+@media screen and (max-width:769px){
+    .profilebox{
+        width: 90%;
+        margin: 0;
+    }
+    .profilehead{
+        width: 100%;
+        margin: 0;
+    }
+}

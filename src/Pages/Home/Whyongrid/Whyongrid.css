@@ -1,0 +1,157 @@
+.firstgrid{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.ongrid{
+    margin: 5px;
+    width: 375px;
+    height: 250px;
+}
+.ongrid1{
+    background-color: rgb(39, 41, 49);
+    color: white;
+    text-align: start; 
+    
+}
+.ongrid2{
+    background-color: #00bbbb;
+    color: white;
+    text-align: start;
+    font-size: small;
+}
+.ongrid3{
+    width: 375px;
+    height: 250px;
+}
+.secondgrid{
+    display: flex;
+    flex-direction: row;
+    width: 77%;
+    justify-content: center;
+    margin: auto;
+}
+.griditem{
+    height: 450px;
+    margin: 5px;
+}
+.grid{
+    display: flex;
+    flex-direction: column;
+}
+.gridchild{
+    width: 300px;
+    height: 225px;
+    margin: 5px;
+}
+.gridchildimg{
+    width: 300px;
+    height: 225px;
+}
+.childitem{
+    background-color: #00bbbb;
+    color: white;
+    text-align: start;
+    font-size: small;
+}
+.lastchild{
+    margin: 5px;
+}
+.driver{
+    width: 375px;
+    height: 450px;
+}
+.trio{
+    display: flex;
+    flex-direction: column;
+}
+.lastitem{
+    background-color: rgb(39, 41, 49);
+    color: white;
+    text-align: start;
+    font-size: small;
+}
+.grandchild{
+    display: flex;
+    flex-direction: row;
+}
+
+.childgrand{
+    background-color: #00bbbb;
+    color: white;
+    text-align: start;
+    font-size: small;
+    margin: 5px;
+    height: 280px;
+}
+.grandcleaner{
+    background-color: white;
+}
+.cleaner{
+    width: 175px;
+    height: 280px;
+}
+.whytext{
+    text-align: center;
+}
+.textwhy{
+    margin: 50px;
+}
+.hrline{
+    width: 35px;
+    height: 2px;
+    font-weight: bolder;
+    background-color: #00bbbb;
+    margin: auto;
+}
+.whyimg{
+    width: 40px;
+    height: 35px;
+    position: relative;
+    left: 10px;
+    top: 20px;
+}
+@media screen and (min-width:350px) and (max-width:769px){
+    .firstgrid{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .ongrid{
+        width: fit-content;
+    }
+    .ongrid1{
+        width: 100%;
+    }
+    .ongrid2{
+        width: 48%;
+    }
+    .ongrid3{
+        width: fit-content;
+    }
+    .secondgrid{
+        flex-direction: column-reverse;
+        margin: auto;
+    }
+    .grid{
+        flex-direction: row;
+        height: fit-content;
+    }
+    .gridchild{
+        width: 48%;
+    }
+    .gridchildimg{
+        width: 100%;
+    }
+    .driver{
+        display: none;
+    }
+    .childgrand{
+        width: 48%;
+    }
+    .cleaner{
+        width: 100%;
+    }
+    .grandchild{
+        height: fit-content;
+    }
+}

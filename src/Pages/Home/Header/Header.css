@@ -1,0 +1,119 @@
+/* .headtext{ */
+    /* margin: auto; */
+    /* text-align: center; */
+    /* width: 70%; */
+    /* color: white; */
+    /* position: relative; */
+    /* top: -330px; */
+    /* z-index: 2; */
+/* } */
+/* .headtxt1{ */
+    /* font-size: 22px; */
+/* } */
+/* .headimg{ */
+    /* height: 68vh; */
+/* } */
+/* .gridimg{ */
+    /* position: relative; */
+    /* height: 68vh; */
+    /* width: 100%; */
+    /* z-index: 1; */
+/* } */
+/* .gridimg1{ */
+    /* position: relative; */
+    /* z-index: 2; */
+/* } */
+/* .headfoot{ */
+    /* background-color: rgb(34, 36, 43); */
+    /* padding: 50px; */
+    /* margin-top: 5px; */
+/* } */
+/* .headfoottxt{ */
+    /* width: 60%; */
+    /* margin: auto; */
+    /* color: white; */
+    /* text-align: center; */
+/* } */
+/* .headmain{ */
+    /* background-color: aqua; */
+/* } */
+/* .btnstar{ */
+    /* background-color: aqua; */
+    /* border: none; */
+    /* color: white; */
+    /* padding: 10px; */
+    /* font-size: larger; */
+    /* cursor: pointer; */
+/* } */
+/* .btnstar:hover{ */
+    /* background-color: rgb(34, 36, 43); */
+/* } */
+/* @media screen and (min-width:350px) and (max-width:769px){ */
+    /* .headimg{ */
+        /* height: 68vh; */
+    /* } */
+    /* .headtext{ */
+        /* position: relative; */
+    /* top: -500px; */
+    /* } */
+/* } */
+
+.headtext{
+    margin: auto;
+    text-align: center;
+    width: 70%;
+    color: white;
+    position: relative;
+    top: -330px;
+    z-index: 2;
+}
+.headtxt1{
+    font-size: 22px;
+}
+.headimg{
+    height: 68vh;
+}
+.gridimg{
+    /* position: relative; */
+    height: 68vh;
+    width: 100%;
+    /* z-index: 1; */
+}
+.gridimg1{
+    position: relative;
+    z-index: 2;
+}
+.headfoot{
+    background-color: rgb(34, 36, 43);
+    padding: 50px;
+    margin-top: 5px;
+}
+.headfoottxt{
+    width: 60%;
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+.headmain{
+    background-color: aqua;
+}
+.btnstar{
+    background-color: #34d0d0;
+    border: none;
+    color: white;
+    padding: 10px;
+    font-size: larger;
+    cursor: pointer;
+}
+.btnstar:hover{
+    background-color: rgb(34, 36, 43);
+}
+@media screen and (max-width:769px){
+    .headimg{
+        height: 68vh;
+    }
+    .headtext{
+        position: relative;
+    top: -500px;
+    }
+}
